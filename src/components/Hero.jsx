@@ -1,8 +1,9 @@
 export default function Hero() {
   return (
-    <section>
-      <h2>Добро пожаловать</h2>
-      <p>Это моя первая страница на React.</p>
+    <section className="hero">
+      <h2>Кофе, который согревает</h2>
+      <p>Свежая обжарка, домашняя выпечка и уютная атмосфера.</p>
+      <button>Посмотреть меню</button>
     </section>
   );
 }
